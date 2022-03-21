@@ -742,7 +742,7 @@ class TemplateProcessor
                 $extraRowEnd = $this->findRowEnd($extraRowEnd + 1);
 
                 // If extraRowEnd is lower then 7, there was no next row found.
-                if ($extraRowEnd < 7) {
+                if ($extraRowEnd <= 7) {
                     break;
                 }
 
